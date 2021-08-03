@@ -88,15 +88,15 @@ const Home: React.FC = () => {
         <Text>{TranslateString(578, 'The #1 clone exchange from youtube.')}</Text>
       </Hero>
       <div>
-        <Cards>
-          <FarmStakingCard />
-          <LotteryCard />
-        </Cards>
         <CTACards>
           <EarnAPRCard />
           <EarnAssetCard />
-          <WinCard />
+          {/* <WinCard /> */}
         </CTACards>
+        <Cards>
+          <FarmStakingCard />
+          {/* <LotteryCard /> */}
+        </Cards>
         <Cards>
           <CakeStats />
           <TotalValueLockedCard />
