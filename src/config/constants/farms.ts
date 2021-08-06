@@ -14,23 +14,23 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 1,
-    lpSymbol: 'PIXEL-BNB LP',
+    lpSymbol: 'BALOON-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x9b1d86ce5beb71696ce0cc5a8c74c57ca5db3214',
+      56: '0x77021c79bb022AbD5bBE46f543D7257833D08055',
     },
     token: tokens.cake,
     quoteToken: tokens.wbnb,
   },
   {
     pid: 2,
-    lpSymbol: 'PIXEL-USDC LP',
+    lpSymbol: 'BALOON-USDT LP',
     lpAddresses: {
       97: '',
-      56: '0xd9cebbcb531f9caeab4d19abe3a44161dbf3d7cb',
+      56: '0xeA3de4Bd8e15F721aFCA5b63b7CB095A8FF75892',
     },
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
+    token: tokens.cake,
+    quoteToken: tokens.usdt,
   },
 //   {
 //     pid: 193,
