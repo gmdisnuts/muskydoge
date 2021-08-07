@@ -6,8 +6,8 @@ const tokens = {
   cake: {
     symbol: 'CAKE',
     address: {
-      56: '0xB2Eb53e053d8dD50391Dd35e66f4706F815d2c97',
-      97: '0xB2Eb53e053d8dD50391Dd35e66f4706F815d2c97',
+      56: '0xdef92bc56a25597dfdba4a10b453799729080d9a',
+      97: '0xdef92bc56a25597dfdba4a10b453799729080d9a',
     },
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
