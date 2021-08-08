@@ -31,12 +31,12 @@ const EarnAssetCard = () => {
         <Heading color="contrast" size="lg">
           Earn
         </Heading>
-        <CardMidContent color="invertedContrast">{assets}</CardMidContent>
+        <CardMidContent color="invertedContrast">And Trade RBL, BNB and any other BSC Coin</CardMidContent>
         <Flex justifyContent="space-between">
           <Heading color="contrast" size="lg">
             in Pools
           </Heading>
-          <NavLink exact activeClassName="active" to="/syrup" id="pool-cta">
+          <NavLink exact activeClassName="active" to="/farms" id="pool-cta">
             <ArrowForwardIcon mt={30} color="primary" />
           </NavLink>
         </Flex>
