@@ -83,7 +83,7 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'BaloonSwap')}
+          {TranslateString(576, 'BalloonSwap')}
         </Heading>
         <Text>{TranslateString(578, 'The #1 zero gravity exchange on the bsc smart chain')}</Text>
       </Hero>
@@ -92,9 +92,9 @@ const Home: React.FC = () => {
           {/* <LotteryCard /> */}
         </Cards>
         <CTACards>
-          <FarmStakingCard />
+        <EarnAssetCard />
+        <FarmStakingCard />
           <EarnAPRCard />
-          <EarnAssetCard />
           {/* <WinCard /> */}
         </CTACards>
         <Cards>
