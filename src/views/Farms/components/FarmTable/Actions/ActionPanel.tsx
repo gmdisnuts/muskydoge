@@ -125,7 +125,6 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({ details, apr, 
           </StakeContainer>
         )}
         <StyledLinkExternal href={bsc}>{TranslateString(999, 'View Contract')}</StyledLinkExternal>
-        <StyledLinkExternal href={info}>{TranslateString(999, 'See Pair Info')}</StyledLinkExternal>
         <TagsContainer>
           {farm.isCommunity ? <CommunityTag /> : <CoreTag />}
           {dual ? <DualTag /> : null}
