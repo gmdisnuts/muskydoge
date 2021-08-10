@@ -17,7 +17,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'RBL-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x2A0e0F6f67e49800678ED372e05c3181b8bd1476',
+      56: '0x4fa11aa68b9ddf10799f5935ff80f89156cd26fd',
     },
     token: tokens.cake,
     quoteToken: tokens.wbnb,
@@ -27,7 +27,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'RBL-USDT LP',
     lpAddresses: {
       97: '',
-      56: '0xE922349aF87F8B7139E770842D47B566A63aa8A2',
+      56: '0xe58cf93650ec7e8cb1c4cdd8e059cbc713412fa4',
     },
     token: tokens.cake,
     quoteToken: tokens.usdt,

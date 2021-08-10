@@ -1,7 +1,7 @@
 export default {
   masterChef: {
-    97: '0xd8B6dE9C1feB703227633c6cCb4F57cdaf907f37',
-    56: '0xd8B6dE9C1feB703227633c6cCb4F57cdaf907f37',
+    97: '0xf838CF1eD83C19e7fd00a4D371588d2096C0c1c7',
+    56: '0xf838CF1eD83C19e7fd00a4D371588d2096C0c1c7',
   },
   sousChef: {
     97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
