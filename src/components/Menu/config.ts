@@ -20,11 +20,11 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Exchange',
-        href: 'http://localhost:3001/#/swap',
+        href: 'https://exchange.balloonswap.com/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'http://localhost:3001/#/pool',
+        href: 'https://exchange.balloonswap.com/#/pool',
       },
       // {
       //   label: 'V1 Liquidity (Old)',
@@ -108,27 +108,27 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Contact',
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        href: '#',
       },
       {
         label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
+        href: '#',
       },
       {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: '#',
       },
       {
         label: 'Docs',
-        href: 'https://docs.pancakeswap.finance',
+        href: '#',
       },
       {
         label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
+        href: '#',
       },
       {
         label: 'Merch',
-        href: 'https://pancakeswap.creator-spring.com/',
+        href: '#',
       },
     ],
   },

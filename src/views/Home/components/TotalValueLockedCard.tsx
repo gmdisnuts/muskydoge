@@ -25,7 +25,7 @@ const TotalValueLockedCard = () => {
         {data || true ? (
           <>
             <Heading size="xl">{`$${tvl}`}</Heading>
-            <Text color="textSubtle">{TranslateString(764, 'Across all LPs and KUUL Farms')}</Text>
+            <Text color="textSubtle">{TranslateString(764, 'Across all LPs and Farms')}</Text>
           </>
         ) : (
           <Skeleton height={66} />
