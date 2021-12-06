@@ -7,10 +7,12 @@ import { usePriceCakeBusd } from 'state/hooks'
 import { MigrationV2 } from 'components/Banner'
 import Container from './Container'
 
+
 const StyledPage = styled(Container)`
   min-height: calc(100vh - 64px);
   padding-top: 16px;
   padding-bottom: 16px;
+  ${'' /* // background-image: url('/images/pixel/backgroundTBB.svg'); */}
 
   ${({ theme }) => theme.mediaQueries.sm} {
     padding-top: 24px;
@@ -53,7 +55,9 @@ const Page: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({ children, ...pro
     <>
       <PageMeta />
       <MigrationV2 />
-      <StyledPage {...props}>{children}</StyledPage>
+      <div style={{backgroundImage : "url('/images/pixel/backgroundTBB.svg')"}}>
+        <StyledPage {...props}>{children}</StyledPage>
+      </div>
     </>
   )
 }

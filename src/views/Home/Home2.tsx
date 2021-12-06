@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, BaseLayout, Button, useWalletModal } from '@pancakeswap-libs/uikit'
+import { Heading, Text, BaseLayout, Button,Input, useWalletModal } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import FarmStakingCard from 'views/Home/components/FarmStakingCard'
@@ -37,12 +37,12 @@ const Hero = styled.div`
   }
 `
 
-window.onload = function() {
-    const anchors = document.getElementsByTagName("a");
-    for (let i = 0; i < anchors.length; i++) {
-        anchors[i].onclick = function() {return false;};
-    }
-};
+// window.onload = function() {
+//     const anchors = document.getElementsByTagName("a");
+//     for (let i = 0; i < anchors.length; i++) {
+//         anchors[i].onclick = function() {return false;};
+//     }
+// };
 
 // const Cards = styled(BaseLayout)`
 //   align-items: stretch;
@@ -88,6 +88,17 @@ window.onload = function() {
 //   }
 // `
 
+const StyledInput = styled(Input)`
+  width: 44%;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 0px 1px #eeeaf4, 0px 0px 0px 3px rgb(111, 49, 8);
+  ${'' /* background-color: #faf9fa; */}
+
+  &:focus {
+    box-shadow : 0px 0px 0px 1px #eeeaf4, 0px 0px 0px 4px rgb(251, 66, 45);
+  }
+`
+
 const Home: React.FC = () => {
   const TranslateString = useI18n()
   const { account } = useWeb3React()
@@ -122,7 +133,17 @@ const Home: React.FC = () => {
           //         count: balancesWithValue.length,
           //       })}
           // </Button>
-          <Button style={{marginBottom : "20px", backgroundColor : "rgb(251 66 45)"}}> YAY YOU ARE IN ! 😁</Button>
+          <div style={{display : "flex", justifyContent:"space-between"}}>
+
+          {/* // width: 44%;
+          // margin-bottom: 15px;
+          // box-shadow: 0px 0px 0px 1px #eeeaf4, 0px 0px 0px 2px rgb(111 49 8) */}
+            <StyledInput type="text" scale="md" value="233 BNB" />
+            {/* <Button style={{marginBottom : "20px", backgroundColor : "rgb(251 66 45)"}}> YAY YOU ARE IN ! 😁</Button> */}
+
+            <Button style={{marginBottom : "20px", backgroundColor : "rgb(251 66 45)"}}>Reserve Tokens</Button>
+
+          </div>
         ) : (
           <UnlockButton style={{marginBottom : "20px"}} />
         )}
