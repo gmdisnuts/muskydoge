@@ -55,7 +55,7 @@ const Page: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({ children, ...pro
     <>
       <PageMeta />
       <MigrationV2 />
-      <div style={{backgroundImage : "url('/images/pixel/backgroundTBB.svg')"}}>
+      <div style={{backgroundImage : "url('/images/pixel/banner.if')"}}>
         <StyledPage {...props}>{children}</StyledPage>
       </div>
     </>
