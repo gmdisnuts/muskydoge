@@ -31,7 +31,7 @@ const EarnAssetCard = () => {
         <Heading color="contrast" size="lg">
           Earn
         </Heading>
-        <CardMidContent color="invertedContrast">And Trade RBL, BNB and any other BSC Coin</CardMidContent>
+        <CardMidContent color="invertedContrast">And Trade MuskyDodge, BNB and any other BSC Coin</CardMidContent>
         <Flex justifyContent="space-between">
           <Heading color="contrast" size="lg">
             in Pools

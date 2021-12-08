@@ -85,7 +85,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'MuskyDodge')}
         </Heading>
-        <Text>{TranslateString(578, 'The #1 zero gravity exchange on the bsc smart chain')}</Text>
+        <Text>{TranslateString(578, 'The #1 Doggy exchange on the bsc smart chain')}</Text>
       </Hero>
       <div>
         <Cards>
