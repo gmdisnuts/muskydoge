@@ -157,7 +157,7 @@ const Home: React.FC = () => {
         </Heading>
 
         </div>
-        <div style= {{width : '50%'}}><img width = "80%" src="/images/pixel/Cookie (1).svg" alt="cookie img" /></div>
+        <div style= {{width : '50%'}}><img width = "80%" src="/images/pixel/LogoWhite.gif" alt="cookie img" /></div>
       </div>
       <div>
         {/* <Cards>
