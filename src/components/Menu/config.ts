@@ -7,64 +7,6 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
-    label : 'Private Sale',
-    icon : 'PrivateSaleIcon',
-    href: '/psale'
-  },
-  {
-    label: 'Stake and Bake',
-    icon: 'GloveIcon',
-    status: {
-      text: 'SOON',
-      color: 'warning',
-    },
-    items: [
-      // {
-      //   label: 'LP Migration',
-      //   href: 'https://v1exchange.pancakeswap.finance/#/migrate',
-      // },
-      {
-        label: 'Farms',
-        href: 'https://exchange.balloonswap.com/#/swap',
-      },
-      {
-        label: 'Vaults',
-        href: 'https://exchange.balloonswap.com/#/pool',
-      },
-      {
-        label: 'Dividends',
-        href: 'https://exchange.balloonswap.com/#/pool',
-      },
-    ],
-  },
-  // {
-  //   label: 'Stake and Bake',
-  //   icon: 'MoreIcon',
-  //   status: {
-  //     text: 'MIGRATE',
-  //     color: 'warning',
-  //   },
-  //   items: [
-  //     // {
-  //     //   label: 'LP Migration',
-  //     //   href: 'https://v1exchange.pancakeswap.finance/#/migrate',
-  //     // },
-  //     {
-  //       label: 'Farms',
-  //       href: 'https://exchange.balloonswap.com/#/swap',
-  //     },
-  //     {
-  //       label: 'Vaults',
-  //       href: 'https://exchange.balloonswap.com/#/pool',
-  //     },
-  //     {
-  //       label: 'Dividends',
-  //       href: 'https://exchange.balloonswap.com/#/pool',
-  //     },
-  //   ],
-  // },
-
-  {
     label: 'Trade',
     icon: 'TradeIcon',
     status: {
@@ -90,37 +32,9 @@ const config: MenuEntry[] = [
       // },
     ],
   },
-  // {
-  //   label: 'Farms',
-  //   icon: 'FarmIcon',
-  //   href: '/farms',
-  // },
   {
-    label: 'Cookie Shop',
-    icon: 'CookieShopIcon',
-    href: '/farms',
-    status: {
-      text: 'SOON',
-      color: 'warning',
-    }
-  },
-  {
-    label: 'The Oven',
-    icon: 'TheOvenIcon',
-    href: '/farms',
-    status: {
-      text: 'SOON',
-      color: 'warning',
-    },
-  },
-  {
-    label: 'Contact Us',
-    icon: 'GroupsIcon',
-    href: '/farms',
-  },
-  {
-    label: 'Documentation',
-    icon: 'DocumenationIcon',
+    label: 'Farms',
+    icon: 'FarmIcon',
     href: '/farms',
   },
   // {
@@ -188,36 +102,37 @@ const config: MenuEntry[] = [
   //   icon: 'IfoIcon',
   //   href: '/ifo',
   // },
-  // {
-  //   label: 'More',
-  //   icon: 'MoreIcon',
-  //   items: [
-  //     {
-  //       label: 'Contact',
-  //       href: '#',
-  //     },
-  //     {
-  //       label: 'Voting',
-  //       href: '#',
-  //     },
-  //     {
-  //       label: 'Github',
-  //       href: '#',
-  //     },
-  //     {
-  //       label: 'Docs',
-  //       href: '#',
-  //     },
-  //     {
-  //       label: 'Blog',
-  //       href: '#',
-  //     },
-  //     {
-  //       label: 'Merch',
-  //       href: '#',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Contact',
+        href: '#',
+      },
+      {
+        label: 'Voting',
+        href: '#',
+      },
+      {
+        label: 'Github',
+        href: '#',
+      },
+      {
+        label: 'Docs',
+        href: '#',
+      },
+      {
+        label: 'Blog',
+        href: '#',
+      },
+      {
+        label: 'Merch',
+        href: '#',
+      },
+    ],
+  },
 ]
 
 export default config
+
