@@ -14,6 +14,7 @@ import { useWeb3React } from '@web3-react/core'
 import UnlockButton from 'components/UnlockButton'
 // import CakeWalletBalance from './CakeWalletBalance'
 
+// fixing err my bad
 
 
 const Hero = styled.div`
