@@ -216,13 +216,25 @@ export const useGetApiPrice = (address: string) => {
 
 export const usePriceCakeBusd = (): BigNumber => {
   const ZERO = new BigNumber(0)
-  const cakeBnbFarm = useFarmFromPid(1)
-  const bnbBusdFarm = useFarmFromPid(2)
+  // const cakeBnbFarm = useFarmFromPid(1)
+  // const bnbBusdFarm = useFarmFromPid(2)
+  const cakeUsdFarm = useFarmFromPid(1);
 
-  const bnbBusdPrice = bnbBusdFarm.tokenPriceVsQuote ? new BigNumber(1).div(bnbBusdFarm.tokenPriceVsQuote) : ZERO
-  const cakeBusdPrice = cakeBnbFarm.tokenPriceVsQuote ? bnbBusdPrice.times(cakeBnbFarm.tokenPriceVsQuote) : ZERO
+  // some lp token math magic on $cake usdt ratio to get dynamic cake price
+  const cakePrice = cakeUsdFarm.tokenPriceVsQuote ? new BigNumber(1).times(cakeUsdFarm.tokenPriceVsQuote) : ZERO;
 
-  return cakeBusdPrice
+  // console.log("cake PRICE", cakePrice);
+
+  // fetches the liquidy ratio of pair from farm, reads : one unit of usd(1USD) equal this bnb
+  // const bnbBusdPrice = bnbBusdFarm.tokenPriceVsQuote ? new BigNumber(1).div(bnbBusdFarm.tokenPriceVsQuote) : ZERO
+
+  // const cakeBusdPrice = cakeBnbFarm.tokenPriceVsQuote ? bnbBusdPrice.times(cakeBnbFarm.tokenPriceVsQuote) : ZERO
+
+  // return cakeBusdPrice
+
+
+  // dummy for now to decent readable price(IN PRACTIVE LET OWNERS SET CHAIN TOKEN<->SITE TOKEN FARM, USD TOKEN<->CHAIN TOKEN FARM to calculate price)
+  return new BigNumber(cakePrice);
 }
 
 // Block

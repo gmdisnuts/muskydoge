@@ -6,31 +6,31 @@ const farms: FarmConfig[] = [
     pid: 0,
     lpSymbol: 'CAKE',
     lpAddresses: {
-      97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
-      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+      97: '0x7c11add5a9ac5cd59f4b5f32a33e7d6f8e59aa73',
+      56: '0x7c11add5a9ac5cd59f4b5f32a33e7d6f8e59aa73',
     },
     token: tokens.syrup,
     quoteToken: tokens.wbnb,
   },
   {
     pid: 1,
-    lpSymbol: 'RBL-BNB LP',
+    lpSymbol: 'MC-USDT LP',
     lpAddresses: {
       97: '',
-      56: '0x4fa11aa68b9ddf10799f5935ff80f89156cd26fd',
-    },
-    token: tokens.cake,
-    quoteToken: tokens.wbnb,
-  },
-  {
-    pid: 2,
-    lpSymbol: 'RBL-USDT LP',
-    lpAddresses: {
-      97: '',
-      56: '0xe58cf93650ec7e8cb1c4cdd8e059cbc713412fa4',
+      56: '0xb37a73115dc28ddb1f657e2e843aadec1c3ba122',
     },
     token: tokens.cake,
     quoteToken: tokens.usdt,
+  },
+  {
+    pid: 2,
+    lpSymbol: 'MC-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x11c59cd37e00bc95ac4c39f57d5646cd6c7245dc',
+    },
+    token: tokens.cake,
+    quoteToken: tokens.wbnb,
   },
 //   {
 //     pid: 193,
