@@ -115,6 +115,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, account }
   const addLiquidityUrl = `${BASE_ADD_LIQUIDITY_URL}/${liquidityUrlPathParts}`
   const lpAddress = farm.lpAddresses[process.env.REACT_APP_CHAIN_ID]
 
+  // console.log("farm carrd~~~~~~")
   return (
     <FCard>
       {farm.token.symbol === 'CAKE' && <StyledCardAccent />}
