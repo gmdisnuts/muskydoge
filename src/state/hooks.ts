@@ -200,7 +200,17 @@ export const useFetchPriceList = () => {
 }
 
 export const useGetApiPrices = () => {
-  const prices: PriceState['data'] = useSelector((state: State) => state.prices.data)
+  const prices: PriceState['data'] = useSelector((state: State) => {
+    // code add some of our prices for now
+    const addPrices = {
+      "0x55d398326f99059ff775485246999027b3197955" : 1, // usdt
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c" : 560, // bnb
+    }
+
+    return {...state.prices.data, ...addPrices};
+  })
+
+
   return prices
 }
 

@@ -10,7 +10,7 @@ const farms: FarmConfig[] = [
       56: '0x7c11add5a9ac5cd59f4b5f32a33e7d6f8e59aa73',
     },
     token: tokens.syrup,
-    quoteToken: tokens.wbnb,
+    quoteToken: tokens.usdt,
   },
   {
     pid: 1,
