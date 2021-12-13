@@ -20,11 +20,11 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Exchange',
-        href: 'https://exchange.balloonswap.com/#/swap',
+        href: 'https://exchange.muskyswap.net/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.balloonswap.com/#/pool',
+        href: 'https://exchange.muskyswap.net/#/pool',
       },
       // {
       //   label: 'V1 Liquidity (Old)',
@@ -135,4 +135,3 @@ const config: MenuEntry[] = [
 ]
 
 export default config
-
